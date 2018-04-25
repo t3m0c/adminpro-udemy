@@ -8,6 +8,7 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { LoginGuardGuard } from '../services/guards/login-guard.guard';
+import { ProfileComponent } from './profile/profile.component';
 
 const PAGESROUTES: Routes = [
   {
@@ -19,6 +20,7 @@ const PAGESROUTES: Routes = [
       { path: 'progress', component: ProgressComponent, data: { titulo: 'ProgressBars'} },
       { path: 'graficas1', component: Graficas1Component, data: { titulo: 'Graficas'} },
       { path: 'accout-settings', component: AccoutSettingsComponent, data: { titulo: 'Ajustes de Tema'} },
+      { path: 'profile', component: ProfileComponent, data: { titulo: 'Perfil de usuario'} },
       { path: 'promesas', component: PromesasComponent, data: { titulo: 'Promesas'} },
       { path: 'rxjs', component: RxjsComponent, data: { titulo: 'Rxjs'} },
       { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
