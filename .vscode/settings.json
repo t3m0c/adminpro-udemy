@@ -1,0 +1,11 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "editor.tabSize": 2,
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  //"sqltools.telemetryUUID": "4a526c1e-cdc2-46bd-8b32-3d199143a3a3",
+  "explorer.confirmDragAndDrop": false,
+  "jshint.enable": false,
+  "vsicons.projectDetection.autoReload": false
+}
